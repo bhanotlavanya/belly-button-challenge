@@ -129,11 +129,12 @@ function initializeDashboard() {
 }
 
 // Function to handle change in the dropdown selection
-function handleSampleChange(newSampleId) {
+function optionChanged(newSampleId) {
   // Render charts and metadata for the newly selected sample
   renderMetadata(newSampleId);
   renderCharts(newSampleId);
 }
+
 
 // Initialize the dashboard when the page loads
 initializeDashboard();
